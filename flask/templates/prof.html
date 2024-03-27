@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: linear-gradient(to right, #114f69, #177d9f, #368cb1);
+    }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  th {
+    background-color: lightgray;
+  }
+  td {
+    background-color: white;
+  }
+
+
+
+
+
+.container {
+    width: 510px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 15px 15px 5px 5px #0f2027;
+    box-shadow: 15px 15px 5px 5px #0f2027;
+    border-radius: 4px;
+    font-size: 12px;
+}
+</style>
+<body>
+<div class="container">
+    <table>
+    <tr>
+    <th>username</th> <th>password</th><th>email</th>
+    </tr>
+
+    <tr>
+     <td>{{username}}</td> <td>{{password}}</td> <td>{{email}}</td>
+    </tr>
+    </table>
+</div>
+
+</body>
+</html>
